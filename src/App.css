@@ -1,0 +1,82 @@
+.box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+.material-icons{
+  font-size: 2.4em;
+  cursor: pointer;
+}
+.card{
+  width: 300px;
+}
+.card .card-image .card-title{
+  color: black;
+  font-weight: 400
+}
+.cart{
+  margin-top:40px;
+}
+.collection .collection-item{
+  display: flex;
+}
+.collection-item.avatar .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ee6e73;
+  display: block;
+  margin-bottom: 20px;
+  
+}
+.collection .collection-item img{
+  width: 150px;
+  margin-right: 25px;
+}
+.item-desc{
+  align-self:center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px; /* Adjust the width as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.card-image {
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.btn-floating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card-content {
+  text-align: center;
+  margin-top: 10px;
+}
+
